@@ -1,0 +1,10 @@
+.emoji {
+  position: absolute;
+  transition: top 2s ease;
+  top: 100vh;
+}
+
+.emoji.started {
+  transition: top 2s ease;
+  top: -40px;
+}
